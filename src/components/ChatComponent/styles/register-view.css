@@ -1,0 +1,39 @@
+.sc-register-view {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.sc-register-view .login-wrapper {
+    padding: 20px;
+}
+
+.sc-register-view .login-wrapper .input-item {
+    margin: 20px 0;
+}
+
+.sc-register-view .login-wrapper .input-item .label {
+    display: block;
+}
+
+.sc-register-view .login-wrapper .input-item .input-field {
+    width: calc(100% - 12px);
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.sc-register-view .btn-wrapper {
+    padding: 20px;
+    text-align: center;
+}
+
+.sc-register-view .btn-wrapper .register-btn {
+    padding: 10px 20px;
+    background-color: #4e8cff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

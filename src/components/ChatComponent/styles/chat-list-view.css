@@ -1,0 +1,41 @@
+.sc-chat-list-view{
+    height: 100%;
+}
+
+.sc-chat-list-view .chat-item{
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #c7c7c7;
+    cursor: pointer;
+}
+
+.chat-item-new-message-count {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.sc-chat-list-view .online-mark {
+    position: absolute;
+    bottom: 8px;
+    left: 35px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.sc-chat-list-view .online-mark.online {
+    background-color: #04f704;
+}
+
+.sc-chat-list-view .online-mark.offline {
+    background-color: red;
+}
